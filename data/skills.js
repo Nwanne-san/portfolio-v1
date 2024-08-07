@@ -5,7 +5,7 @@ const skills = [
     { id: 6, name: "CSS" },
     { id: 8, name: "React.js" },
     { id: 9, name: "Node.js" },
-    { id: 12, name: "Typescript" },
+    { id: 12, name: "Typescript" }, 
     { id: 14, name: "Tailwind" },
     { id: 15, name: "Express.js" },
     { id: 16, name: "Git/Github" },
