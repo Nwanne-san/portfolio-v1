@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact"
 import Nav from "../components/Nav";
+import Footer from "../components/Footer"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -17,7 +18,7 @@ export default function Home() {
     body.className = darkMode ? "" : "dark";
   }, [darkMode]);
 
-  
+   
   return (
     <div className={darkMode ? "" : "dark"}>
       <Head>
@@ -31,6 +32,7 @@ export default function Home() {
         <Portfolio />
         <Services />
         <Contact />
+        <Footer />
       </main>
     </div>
   );
