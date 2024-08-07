@@ -26,7 +26,7 @@ export default function Home() {
         <meta name="description" content="Frontend Web Developer" />
         <link rel="icon" href="/icon.ico" />
       </Head>
-      <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
+      <main className=" bg-white px-5 sm:px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <Nav darkMode={darkMode} toggleDarkMode={toggleDarkMode} navOpen={navOpen} setNavOpen={setNavOpen} />
         <Skills />
         <Portfolio />

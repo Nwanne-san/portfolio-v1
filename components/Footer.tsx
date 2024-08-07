@@ -3,7 +3,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-evenly items-center  p-16 md:p-12">
+    <footer className="flex justify-evenly items-center p-4 sm:p-16 md:p-12">
       <div className="text-sm dark:text-white">
         <p>Copyright &copy; 2024 by Nwanne Nnamani | All Rights Reserved. </p>
       </div>

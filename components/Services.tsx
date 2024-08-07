@@ -6,8 +6,8 @@ import consulting from "../public/consulting.png";
 
 const Services: React.FC = () => {
   return (
-    <section className="scroll-smooth">
-      <div className="flex flex-col text-center items-center justify-center mt-10">
+    <section className="sm:block hidden scroll-smooth">
+      <div className=" sm:flex flex-col text-center items-center justify-center mt-10 ">
         <BiCodeAlt className="text-teal-600 text-6xl mb-4" />
         <h3 className="text-teal-600 text-4xl mb-4 py-1 dark:text-white">
           Services

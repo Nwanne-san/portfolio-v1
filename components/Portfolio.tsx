@@ -7,8 +7,8 @@ import portfolioData from "../data/portfoliodata";
 export default function Portfolio() {
   return (
     <section className="flex flex-col text-center items-center justify-center">
-      <div className="flex flex-col text-center items-center justify-center mt-10 py-10">
-        <SiPolymerproject className="text-teal-600 text-6xl mb-4" />
+      <div className="flex flex-col text-center items-center justify-center sm:mt-10 py-10">
+        <SiPolymerproject className="text-teal-600 text-6xl " />
         <h3 className="text-teal-600 text-4xl mb-4 py-1 dark:text-white">
           Portfolio
         </h3>
@@ -56,8 +56,8 @@ export default function Portfolio() {
           </a>
         ))}
       </div>
-      <Link href="https://github.com/Nwanne-san">
-        <a className="text-teal-600 text-xl underline mb-4 py-1 dark:text-white flex items-center">
+      <Link href="https://github.com/Nwanne-san" className="">
+        <a className="text-teal-600 text-xl underline hidden mb-4 py-1 dark:text-white sm:flex items-center">
           View More Projects{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"

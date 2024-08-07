@@ -18,7 +18,7 @@ interface NavProps {
  const Nav: React.FC<NavProps> = ({ darkMode, toggleDarkMode, navOpen, setNavOpen }) => {
   return (
     <section className="scroll-smooth">
-      <nav className="py-10 mb-12 flex justify-between dark:text-white">
+      <nav className="md:py-10 py-4 flex justify-between dark:text-white">
         <h1 className="font-burtons text-xl">Nwanne</h1>
         <ul className="flex items-center">
           <li>
@@ -38,14 +38,14 @@ interface NavProps {
           </li>
         </ul>
       </nav>
-      <div className="text-center px-10">
-        <h2 className="text-5xl py-2 text-indigo-600 font-medium dark:text-indigo-400 md:text-6xl">
+      <div className="text-center px-4 sm:px-10">
+        <h2 className="text-4xl py-2 text-indigo-600 font-medium dark:text-indigo-400 md:text-6xl">
           Nwanne Nnamani
         </h2>
         <h3 className="text-2xl py-2 dark:text-white md:text-3xl hidden md:block">
           Frontend Web Developer
         </h3>
-        <h3 className="text-2xl py-2 dark:text-white md:text-3xl md:hidden">
+        <h3 className="text-xl py-2 dark:text-white md:text-3xl md:hidden">
           Full-stack Developer Software Engineer
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
