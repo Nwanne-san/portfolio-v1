@@ -15,7 +15,12 @@ interface NavProps {
   setNavOpen: (navOpen: boolean) => void;
 }
 
- const Nav: React.FC<NavProps> = ({ darkMode, toggleDarkMode, navOpen, setNavOpen }) => {
+const Nav: React.FC<NavProps> = ({
+  darkMode,
+  toggleDarkMode,
+  navOpen,
+  setNavOpen,
+}) => {
   return (
     <section className="scroll-smooth">
       <nav className="md:py-10 py-4 flex justify-between dark:text-white">
@@ -29,11 +34,11 @@ interface NavProps {
           <li>
             <a
               className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 border-none rounded-md ml-8"
-              href="https://drive.google.com/file/d/1GYPXBTMNX5xgiShKTQZd08YE3ODI25L0/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1cudrsXaVC2X3KBH1XvkKe_SfbQg-RiGX/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Resume 
+              Resume
             </a>
           </li>
         </ul>
