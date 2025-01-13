@@ -34,7 +34,7 @@ const Nav: React.FC<NavProps> = ({
           <li>
             <a
               className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-4 py-2 border-none rounded-md ml-8"
-              href="https://drive.google.com/file/d/18-A8zGlk9I4-38dWvl4bVBLClch_vvlI/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1_M9JJavRb6rhKFglS_zIzvR9pJzBMsjG/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
