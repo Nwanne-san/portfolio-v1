@@ -1,11 +1,20 @@
-import type React from "react"
-import { cn } from "@/lib/utils"
+import type React from "react";
+import { cn } from "@/lib/utils";
 
 interface TypographyProps {
-  children: React.ReactNode
-  variant?: "display" | "h1" | "h2" | "h3" | "h4" | "large" | "body" | "small" | "muted"
-  className?: string
-  as?: keyof JSX.IntrinsicElements
+  children: React.ReactNode;
+  variant?:
+    | "display"
+    | "h1"
+    | "h2"
+    | "h3"
+    | "h4"
+    | "large"
+    | "body"
+    | "small"
+    | "muted";
+  className?: string;
+  as?: keyof JSX.IntrinsicElements;
 }
 
 const typographyVariants = {
@@ -18,14 +27,23 @@ const typographyVariants = {
   body: "text-base",
   small: "text-sm",
   muted: "text-sm text-muted-foreground",
-}
+};
 
-export function Typography({ children, variant = "body", className, as, ...props }: TypographyProps) {
-  const Component = as || "p"
+export function Typography({
+  children,
+  variant = "body",
+  className,
+  as,
+  ...props
+}: TypographyProps) {
+  const Component = as || "p";
 
   return (
-    <Component className={cn(typographyVariants[variant], className)} {...props}>
+    <Component
+      className={cn(typographyVariants[variant], className)}
+      {...props}
+    >
       {children}
     </Component>
-  )
+  );
 }

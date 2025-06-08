@@ -25,13 +25,13 @@ export function Header() {
           </Typography>
 
           <div className="flex items-center gap-8">
-            <Button
-              variant="ghost"
+            <span
+
               onClick={() => scrollToSection("projects")}
-              className="text-foreground hover:text-primary"
+              className="text-foreground hover:text-primary cursor-pointer"
             >
               Projects
-            </Button>
+            </span>
 
             <Link
               href="/files/resume.pdf"
@@ -42,13 +42,13 @@ export function Header() {
               Resume
             </Link>
 
-            <Button
-              variant="ghost"
+            <span
+              
               onClick={() => scrollToSection("contact")}
-              className="text-foreground hover:text-primary"
+              className="text-foreground hover:text-primary cursor-pointer"
             >
               Contact
-            </Button>
+            </span>
 
             <Button
               variant="ghost"

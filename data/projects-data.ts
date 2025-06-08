@@ -13,7 +13,7 @@ export const featuredProjects: Project[] = [
   {
     title: "Elegance Inspired Limited",
     description:
-      "Sidechain explorer open source project (block explorer) for transactions.",
+      "Corporate branding agency that crafts impactful brand identities.",
     image: "/projects/eleganceinspired.png",
     technologies: ["React", "TailwindCSS", "Context API"],
     liveUrl: "https://eleganceinspired.org",
@@ -30,8 +30,7 @@ export const featuredProjects: Project[] = [
   },
   {
     title: "Nourify",
-    description:
-      "A nicer look to Github profiles using features such as user search, authentication using Firebase and charts using the GitHub API.",
+    description: "Ecommerce platform for healthy food products, and pastries.",
     image: "/projects/nourify.png",
     technologies: ["React", "Redux", "Firebase", "GitHub API"],
     liveUrl: "https://nourify.vercel.app",
@@ -39,8 +38,7 @@ export const featuredProjects: Project[] = [
   },
   {
     title: "StreamFi",
-    description:
-      "Proxy provider website including authentication, dashboard and dynamic features",
+    description: "Web3 Streaming Platform",
     image: "/projects/streamfi.png",
     technologies: ["React", "Bootstrap", "Styled Components"],
     liveUrl: "https://streamfi.netlify.app",
@@ -49,13 +47,12 @@ export const featuredProjects: Project[] = [
   {
     title: "Belle's Jewelry",
     description:
-      "TV application, displays different categories of movies/shows (popular, in theaters, trending etc) alongside a search option using TheMovieDB API for the data",
+      "Jewelry e-commerce mockup website showcasing products with a modern design.",
     image: "/projects/belles.png",
     technologies: ["React.js", "Redux", "TheMovieDB API"],
     liveUrl: "https://belle-jewelrys.vercel.app/",
     githubUrl: "https://github.com/Nwanne-san/Belle-jewellry",
   },
-  
 ];
 
 export const moreProjects: Project[] = [
