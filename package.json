@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "rectify",
-=======
-  "name": "my-v0-project",
->>>>>>> 56d3633 (portfolio new version)
+  "name": "nwanne-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,28 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@emotion/react": "^11.13.0",
-    "firebase": "^9.10.0",
-    "moment": "^2.29.4",
-    "next": "12.3.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-hot-toast": "^2.4.1",
-    "react-icons": "^4.8.0",
-    "react-toastify": "^10.0.5",
-    "vercel": "^29.3.0"
-  },
-  "devDependencies": {
-    "@types/react": "18.3.3",
-    "autoprefixer": "^10.4.12",
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1",
-    "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
-  }
-}
-=======
     "@hookform/resolvers": "^3.9.1",
     "@radix-ui/react-accordion": "1.2.2",
     "@radix-ui/react-alert-dialog": "1.1.4",
@@ -98,7 +72,4 @@
     "typescript": "^5"
   }
 }
-<<<<<<< HEAD
->>>>>>> 56d3633 (portfolio new version)
-=======
->>>>>>> c633512 (update portfolio)
+
