@@ -37,7 +37,7 @@ export function HeroSection() {
               className="flex gap-2 items-center"
             >
               <Mail className="h-4 w-4" />
-              Send an email
+              <a href="mailto:nnamaninwanne@gmail.com">Send an email</a>
             </GradientButton>
 
             <GradientButton
@@ -46,16 +46,9 @@ export function HeroSection() {
               className="!flex gap-2 items-center"
             >
               <Linkedin className="h-4 w-4" />
-              <span>LinkedIn</span>
-            </GradientButton>
-
-            <GradientButton
-              variant="outline"
-              size="lg"
-              className="flex gap-2 items-center"
-            >
-              <ExternalLink className="h-4 w-4" />
-              Upwork
+              <a href="https://www.linkedin.com/in/nwanne-nnamani-1b0a03273/">
+                LinkedIn
+              </a>
             </GradientButton>
 
             <GradientButton
@@ -64,7 +57,7 @@ export function HeroSection() {
               className="flex gap-2 items-center"
             >
               <Github className="h-4 w-4" />
-              Github
+              <a href="https://www.github.com/Nwanne-san">Github</a>
             </GradientButton>
           </div>
         </div>
