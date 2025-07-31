@@ -2,25 +2,36 @@ import type { Experience } from "@/types/experience";
 
 export const experienceData: Experience[] = [
   {
-    company: "Selfbook",
-    position: "Software Developer (Remote)",
-    location: "US - New York",
-    period: "Jun 2021 - Present",
+    company: "BrandDrive Incorporated ",
+    position: "Frontend Developer",
+    location: "Abuja, Nigeria",
+    period: "May 2025 - Present",
     responsibilities: [
-      "Developing screens and UI components for the web application using React and Tailwind.",
-      "Fixing UI issues and integrating backend APIs with Redux Saga.",
+      "Implementing fixes and enhancements to existing web applications.",
+      "Collaborating with backend team to improve and develop seamless user experiences.",
+      "Developing new features and components for the company's web applications.",
     ],
   },
   {
-    company: "RouteLift Technologies",
-    position: "Frontend Developer",
-    location: "Remote",
-    period: "Jan 2024 - March 2024",
+    company: "Elegance Inspired Limited ",
+    position: "Web Developer (Contract)",
+    location: "US - New York",
+    period: "March 2025 - Present",
     responsibilities: [
-      "Built responsive web pages and SEOs for the company's web application.",
-      "Collaborated with design team to implement pixel-perfect interfaces.",
+      "Design, developing and managing company's website",
+      "Go-to person for all website and tech-related issues",
     ],
   },
+  // {
+  //   company: "RouteLift Technologies",
+  //   position: "Frontend Developer",
+  //   location: "Remote",
+  //   period: "Jan 2025 - March 2025",
+  //   responsibilities: [
+  //     "Built responsive web pages and SEOs for the company's web application.",
+  //     "Collaborated with design team to implement pixel-perfect interfaces.",
+  //   ],
+  // },
   {
     company: "Young and Skilled Initiative",
     position: "Frontend Developer (Volunteer)",
@@ -66,14 +77,14 @@ export const experienceData: Experience[] = [
       "Configured projects with Firebase for authentication and database management.",
     ],
   },
-  {
-    company: "GenesysTech Learnable",
-    position: "Web Developer Intern",
-    location: "Enugu, Nigeria",
-    period: "Oct 2022 - Feb 2023",
-    responsibilities: [
-      "Learned modern web development practices.",
-      "Learned Git and GitHub fundamentals for version control.",
-    ],
-  },
+  // {
+  //   company: "GenesysTech Learnable",
+  //   position: "Web Developer Intern",
+  //   location: "Enugu, Nigeria",
+  //   period: "Oct 2022 - Feb 2023",
+  //   responsibilities: [
+  //     "Learned modern web development practices.",
+  //     "Learned Git and GitHub fundamentals for version control.",
+  //   ],
+  // },
 ];
